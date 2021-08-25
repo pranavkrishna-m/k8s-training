@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: helloworld-deployment
-soec:
+spec:
   replicas: 5
   selector: 
     matchLabels:
