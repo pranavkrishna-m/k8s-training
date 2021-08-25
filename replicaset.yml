@@ -19,4 +19,4 @@ spec:
         image: arjunachari12/k8s-demo
         ports:
         - name: nodejs-port
-        containerPort: 3000
+          containerPort: 3000
