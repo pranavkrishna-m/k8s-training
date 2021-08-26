@@ -26,8 +26,8 @@ spec:
           timeoutSeconds: 30
         readinessProbe:
           httpGet:
-          path: /
-          port: nodejs-port
-        initialDelaySeconds: 15
-        timeoutSeconds: 30
+            path: /
+            port: nodejs-port
+          initialDelaySeconds: 15
+          timeoutSeconds: 30
         
